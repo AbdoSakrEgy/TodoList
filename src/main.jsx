@@ -18,6 +18,16 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
   },
+  {
+    path: "/abdosakregy.github.io",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/abdosakregy.github.io/todo-list",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
