@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #855afd;
+    color: white;
+}
+/* 
+purple  #855afd
+dark    #1c1942
+white
+*/
