@@ -14,17 +14,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/todo-list",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/abdosakregy.github.io",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/abdosakregy.github.io/todo-list",
+    path: "/to-do-list-app",
     element: <Root />,
     errorElement: <ErrorPage />,
   },
