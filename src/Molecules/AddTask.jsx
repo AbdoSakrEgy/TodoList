@@ -26,6 +26,7 @@ export default function AddTask() {
       dispatch(editContentTask({ content: taskContent, id: taskToEdit.id }));
       dispatch(addTaskToEdit({}));
       document.getElementById("EditTaskForm").reset();
+      setTaskContent("");
     }
   }
 
