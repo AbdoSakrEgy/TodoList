@@ -8,5 +8,4 @@ export default {
     extend: {},
   },
   plugins: [require("daisyui")],
-  base: "/todo-list/",
 };
