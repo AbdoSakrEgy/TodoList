@@ -9,7 +9,7 @@ CRUD app to organize daily tasks.
 - Delte task
 
 ## Technologies
-- React
+- React (Vite)
 - ReduxToolkit
 - React router dom
 - TailwindCSS
