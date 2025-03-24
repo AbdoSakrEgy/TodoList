@@ -1,9 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-    background-color: #855afd;
-    color: white;
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/src/assets/Fonts/Marko_One/MarkoOne-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #3e2a78;
+  color: white;
+  font-family: "MyCustomFont";
 }
 /* 
 purple  #855afd

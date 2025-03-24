@@ -45,9 +45,9 @@ export default function AddTask() {
               type="text"
               defaultValue=""
               placeholder="What is the task today?"
-              className="input input-bordered w-full sm:w-[80%] rounded-none focus:outline-none"
+              className="input input-bordered w-full sm:w-[80%] rounded-s-md rounded-e-none focus:outline-none"
             />
-            <button className="btn btn-primary w-full sm:w-[20%] normal-case h-full rounded-none">
+            <button className="btn btn-primary w-full sm:w-[20%] normal-case h-full rounded-s-none rounded-e-md text-xs">
               Add Task
             </button>
           </form>
@@ -66,7 +66,7 @@ export default function AddTask() {
               defaultValue={taskToEdit.content}
               className="input input-bordered w-full sm:w-[80%] rounded-none focus:outline-none"
             />
-            <button className="btn btn-success text-white w-full sm:w-[20%] normal-case h-full rounded-none">
+            <button className="btn btn-success text-white w-full sm:w-[20%] normal-case h-full rounded-s-none rounded-e-md text-xs">
               Save
             </button>
           </form>
