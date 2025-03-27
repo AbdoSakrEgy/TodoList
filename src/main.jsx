@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/TodoList-App",
+    path: "/TodoList",
     element: <Root />,
     errorElement: <ErrorPage />,
   },
