@@ -1,4 +1,4 @@
-# ToDo List App
+# TodoList
 
 CRUD app to organize daily tasks.
 
@@ -47,4 +47,4 @@ GitHub is made up of repositories. A repository is a place where all files in a 
     $ npm run dev
 
 ## DEMO
-https://abdosakregy.github.io/TodoList-App/
+https://abdosakregy.github.io/TodoList/
